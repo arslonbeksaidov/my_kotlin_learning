@@ -3,8 +3,8 @@ import kotlin.math.max
 
 fun main() {
     val fileName = "src/reading.txt"
-//    val text = File(fileName).readText()
-//    println(text)
+    val text = File(fileName).readText()
+    println(text)
 
 //    by creating reference
 //    val file = File(fileName)
@@ -66,8 +66,8 @@ fun main() {
 
 //---------------------------------------------------------
 
-    val file = "src/text.txt"
-    var count = File(file).readText().split(" ").size
-    println(count)
+//    val file = "src/text.txt"
+//    var count = File(file).readText().split(" ").size
+//    println(count)
 
 }
