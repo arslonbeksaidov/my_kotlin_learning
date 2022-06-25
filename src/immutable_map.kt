@@ -54,6 +54,9 @@ fun main() {
 //    }
 
 fun summator(map: Map<Int, Int>): Int {
-    return map.filterValues { it % 2 != 0 }.values.sum()
+    return map.filterKeys { it % 2 == 0 }.values.sum()
 }
+fun summator2(map: Map<Int, Int>): Int {
+        return map.filter { it.key % 2 == 0 }.values.sum()
+    }
 }
