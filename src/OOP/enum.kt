@@ -33,15 +33,20 @@ fun main() {
     val rgb = Rainbow.BLUE.rgb
     val fullInfo = Rainbow.RED.printFullInfo()
     val orderRed = Rainbow.VIOLET.ordinal
-    println(orderRed)
-    fun isRainbow(color: String): Boolean {
-        for (enum in Rainbow.values()) {
-            if (color.uppercase() == enum.name) return true
-        }
-        return false
-    }
-    println(findByRgb("#8B00FF"))
+//    println(orderRed)
+//    fun isRainbow(color: String): Boolean {
+//        for (enum in Rainbow.values()) {
+//            if (color.uppercase() == enum.name) return true
+//        }
+//        return false
+//    }
+//    println(findByRgb("#8B00FF"))
 //    println(isRainbow("black"))
 //    println(Rainbow.valueOf("RED"))
+//    --------------------------------------------------
+
+
+
+
 
 }
